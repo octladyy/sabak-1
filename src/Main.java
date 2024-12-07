@@ -17,6 +17,7 @@ public class Main {
 
         var paper = 763789;
         System.out.println(paper);
+        var cat2 = paper;s
 
         /* Задача 2
 Увеличьте значение каждой перечисленной в прошлой задаче переменной на 4
@@ -24,7 +25,7 @@ public class Main {
 Выведите в консоль новые значения переменных. */
 
         var increase = 4;
-        var dog1 = dog + increase;
+        dogs = dog + increase;
         var cat1 = cat + increase;
         var paper1 = paper + increase;
         System.out.println(dog1);
@@ -52,9 +53,9 @@ public class Main {
 
         var friend = 19;
         System.out.println(friend);
-
+        friend = friend + 2
         System.out.println(friend + 2);
-
+        friend = friend + 2
         System.out.println((friend + 2) / 7);
 
         /* Задача 6
