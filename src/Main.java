@@ -24,9 +24,12 @@ public class Main {
 Выведите в консоль новые значения переменных. */
 
         var increase = 4;
-        System.out.println(increase + dog);
-        System.out.println(increase + cat);
-        System.out.println(increase + paper);
+        var dog1 = dog + increase;
+        var cat1 = cat + increase;
+        var paper1 = paper + increase;
+        System.out.println(dog1);
+        System.out.println(cat1);
+        System.out.println(paper1);
 
         /* Задача 3
 Теперь нужно уменьшить значение каждой переменной:
@@ -36,9 +39,9 @@ public class Main {
 Выведите в консоль новые значения переменных. Для решения этой задачи
 используйте тип переменной var. */
 
-        System.out.println(dog - 3.5);
-        System.out.println(cat - 1.6);
-        System.out.println(paper - 7639);
+        System.out.println(dog1 - 3.5);
+        System.out.println(cat1 - 1.6);
+        System.out.println(paper1 - 7639);
 
         /* Задача 4
 Инициализируйте (присвойте значение) переменную friend значением 19.
@@ -50,10 +53,9 @@ public class Main {
         var friend = 19;
         System.out.println(friend);
 
-        var friend2 = friend + 2;
-        System.out.println(friend2);
+        System.out.println(friend + 2);
 
-        System.out.println(friend2 / 7);
+        System.out.println((friend + 2) / 7);
 
         /* Задача 6
 В боксе перед каждым боем спортсменов взвешивают. Это делают для того,
